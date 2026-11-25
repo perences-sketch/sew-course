@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>دورة من قماش قديم إلى إبداع جديد - 16 ساعة</title>
+<title>Recycle Fashion - دورة تدوير الأقمشة</title>
 <style>
   :root{
     --brown-dark:#4a3426;
@@ -28,7 +28,7 @@
     padding:50px 20px 40px;
     border-bottom:6px solid var(--beige-dark);
   }
-  header h1{font-size:2rem; margin-bottom:10px;}
+  header h1{font-size:2.2rem; margin-bottom:10px; font-family:'Georgia', serif;}
   header p{font-size:1.1rem; opacity:.95;}
   .badges{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:18px;}
   .badge{
@@ -90,7 +90,7 @@
     transition:max-height .4s ease;
     padding:0 18px;
   }
-  .acc-item.open .acc-body{max-height:1200px; padding:15px 18px;}
+  .acc-item.open .acc-body{max-height:1500px; padding:15px 18px;}
   table{
     width:100%;
     border-collapse:collapse;
@@ -150,13 +150,13 @@
 <body>
 
 <header>
-  <h1>🧵 من قماش قديم إلى إبداع جديد</h1>
-  <p>دورة تدوير الملابس والأقمشة لصناعة شنطة ومحفظة (مع الرسم والتطريز)</p>
+  <h1>Recycle Fashion 🧵</h1>
+  <p>تدوير الملابس والأقمشة لصناعة شنطة ومحفظة</p>
   <div class="badges">
-    <span class="badge">٣ أيام</span>
-    <span class="badge">١٦ ساعة</span>
+    <span class="badge">٤ أيام</span>
+    <span class="badge">٢٠ ساعة</span>
     <span class="badge">متوسط وثانوي</span>
-    <span class="badge">رسم وتطريز</span>
+    <span class="badge">رسم وتطريز وخياطه شنطه ومحفظه </span>
   </div>
 </header>
 
@@ -166,15 +166,15 @@
     <button class="tab-btn active" onclick="openTab(event,'day1')">اليوم الأول</button>
     <button class="tab-btn" onclick="openTab(event,'day2')">اليوم الثاني</button>
     <button class="tab-btn" onclick="openTab(event,'day3')">اليوم الثالث</button>
+    <button class="tab-btn" onclick="openTab(event,'day4')">اليوم الرابع</button>
     <button class="tab-btn" onclick="openTab(event,'patterns')">الباترونات</button>
-    <button class="tab-btn" onclick="openTab(event,'tools')">الأدوات</button>
-    <button class="tab-btn" onclick="openTab(event,'evaluation')">التقييم والشهادة</button>
+    <button class="tab-btn" onclick="openTab(event,'tools')">الأدوات والمتطلبات</button>
   </div>
 
   <!-- اليوم الأول -->
   <div id="day1" class="tab-content active">
     <h2>📅 اليوم الأول: التأسيس وفن الرسم على القماش</h2>
-    <p style="margin-bottom:10px; color:var(--brown-light);">⏱️ المدة: ٥ ساعات و٣٠ دقيقة</p>
+    <p style="margin-bottom:10px; color:var(--brown-light);">⏱️ المدة: ٥ ساعات</p>
     <div class="acc-item open">
       <div class="acc-head" onclick="toggleAcc(this)">جدول الفعاليات <span class="arrow">▼</span></div>
       <div class="acc-body">
@@ -182,10 +182,10 @@
           <tr><th>الوقت</th><th>الفعالية</th><th>التفاصيل</th></tr>
           <tr><td>٣٠ د</td><td>ترحيب وتعريف</td><td>عرض نماذج للشنط المطرزة والمرسومة لإلهام البنات</td></tr>
           <tr><td>٤٥ د</td><td>أساسيات الخياطة</td><td>غرز يدوية، أمان الماكينة، تمارين على قطع تجريبية</td></tr>
-          <tr><td>٦٠ د</td><td>فرز واختيار الخامات</td><td>اختيار الملابس القديمة (جينز، كتان، قطن)</td></tr>
-          <tr><td>٣٠ د</td><td>استراحة</td><td>—</td></tr>
-          <tr><td>٩٠ د</td><td class="highlight">ورشة الرسم على القماش</td><td>استخدام ألوان القماش (Acrylic)، أقلام الرسم، تثبيت اللون بالكي، وعمل رسومات (زهور، أشكال هندسية، أحرف)</td></tr>
-          <tr><td>٧٥ د</td><td>قص الباترون الأساسي</td><td>قص واجهة وخلفية الشنطة استعداداً لليوم التالي</td></tr>
+          <tr><td>٦٠ د</td><td>فرز واختيار الخامات</td><td>اختيار الملابس القديمة (جينز، كتان، قطن) وتجهيز الباترون</td></tr>
+          <tr><td>١٥ د</td><td>استراحة</td><td>—</td></tr>
+          <tr><td>٩٠ د</td><td class="highlight">ورشة الرسم على القماش</td><td>استخدام ألوان القماش، الباليت، الفرش، أقلام التحديد القابلة للمسح، وتثبيت اللون بالكي</td></tr>
+          <tr><td>٦٠ د</td><td>تطبيق عملي للرسم</td><td>رسم وتلوين قطع الشنطة (زهور، أشكال هندسية، أحرف)</td></tr>
         </table>
       </div>
     </div>
@@ -194,8 +194,8 @@
       <div class="acc-body">
         <ul class="checklist">
           <li>إتقان الغرزة الأساسية يدوياً وماكينة</li>
-          <li>رسم وتلوين قطع الشنطة بالقماش</li>
-          <li>اختيار الخامات وتجهيز الباترون</li>
+          <li>احتراف أدوات الرسم وتلوين قطع الشنطة</li>
+          <li>تجهيز الباترون الأساسي</li>
         </ul>
       </div>
     </div>
@@ -204,18 +204,17 @@
   <!-- اليوم الثاني -->
   <div id="day2" class="tab-content">
     <h2>📅 اليوم الثاني: الخياطة والتطريز اليدوي</h2>
-    <p style="margin-bottom:10px; color:var(--brown-light);">⏱️ المدة: ٥ ساعات و٣٠ دقيقة</p>
+    <p style="margin-bottom:10px; color:var(--brown-light);">⏱️ المدة: ٥ ساعات</p>
     <div class="acc-item open">
       <div class="acc-head" onclick="toggleAcc(this)">جدول الفعاليات <span class="arrow">▼</span></div>
       <div class="acc-body">
         <table>
           <tr><th>الوقت</th><th>الفعالية</th><th>التفاصيل</th></tr>
           <tr><td>٦٠ د</td><td>خياطة هيكل الشنطة</td><td>خياطة الجوانب، القاعدة، وتثبيت الحمالات</td></tr>
-          <tr><td>٩٠ د</td><td class="highlight">ورشة التطريز اليدوي</td><td>غرز التطريز الأساسية (السلسلة، الفرنسية، الورقة) باستخدام خيوط ملونة لإبراز الرسومات</td></tr>
-          <tr><td>٤٥ د</td><td>استراحة</td><td>—</td></tr>
-          <tr><td>٦٠ د</td><td>إكمال التطريز والرسم</td><td>إضافة لمسات تطريز على الجيوب أو الحواف، أو كتابة أحرف بالخرز</td></tr>
-          <tr><td>٤٥ د</td><td>تركيب البطانة</td><td>إضافة بطانة داخلية للشنطة (اختياري)</td></tr>
-          <tr><td>٣٠ د</td><td>عرض مرحلي</td><td>استعراض التقدم وتقديم الملاحظات</td></tr>
+          <tr><td>٩٠ د</td><td class="highlight">ورشة التطريز اليدوي (الجزء الأول)</td><td>استخدام أطواق التطريز، ورق الترانسفر، الكربون، وتعلم غرز السلسلة والورقة</td></tr>
+          <tr><td>١٥ د</td><td>استراحة</td><td>—</td></tr>
+          <tr><td>٩٠ د</td><td class="highlight">ورشة التطريز اليدوي (الجزء الثاني)</td><td>تطبيق الغرز باستخدام الخيوط والإبر، إضافة الخرز الصغير والكبير، واستخدام المثبت</td></tr>
+          <tr><td>٤٥ د</td><td>تطبيق التطريز على الشنطة</td><td>إبراز الرسومات على الجيوب أو الحواف</td></tr>
         </table>
       </div>
     </div>
@@ -224,7 +223,7 @@
       <div class="acc-body">
         <ul class="checklist">
           <li>شنطة مكتملة الهيكل</li>
-          <li>تطريز يدوي احترافي ومرسوم بلمسات فنية</li>
+          <li>تطريز يدوي احترافي بالخرز والخيوط</li>
         </ul>
       </div>
     </div>
@@ -232,31 +231,38 @@
 
   <!-- اليوم الثالث -->
   <div id="day3" class="tab-content">
-    <h2>📅 اليوم الثالث: المحفظة والتشطيب النهائي</h2>
+    <h2>📅 اليوم الثالث: تجميع الشنطة والمحفظة</h2>
     <p style="margin-bottom:10px; color:var(--brown-light);">⏱️ المدة: ٥ ساعات</p>
     <div class="acc-item open">
       <div class="acc-head" onclick="toggleAcc(this)">جدول الفعاليات <span class="arrow">▼</span></div>
       <div class="acc-body">
         <table>
           <tr><th>الوقت</th><th>الفعالية</th><th>التفاصيل</th></tr>
-          <tr><td>٦٠ د</td><td>قص وخياطة المحفظة</td><td>قص القطع، خياطة الجيوب الداخلية</td></tr>
-          <tr><td>٦٠ د</td><td class="highlight">تطريز/رسم المحفظة</td><td>إضافة رسم صغير أو تطريز بسيط على الغلاف الخارجي للمحفظة</td></tr>
-          <tr><td>٤٥ د</td><td>تركيب السحاب/الزر</td><td>إغلاق المحفظة وتثبيت الإغلاق</td></tr>
-          <tr><td>٣٠ د</td><td>استراحة</td><td>—</td></tr>
-          <tr><td>٤٥ د</td><td>التشطيب النهائي</td><td>إخفاء الخيوط، الكي، وضع مثبت القماش (Varnish) لحماية الرسومات</td></tr>
-          <tr><td>٦٠ د</td><td>معرض الإبداع</td><td>عرض كل الشنط والمحافظ، تصوير البنات مع أعمالهن</td></tr>
-          <tr><td>٣٠ د</td><td>ختام وتقييم</td><td>توزيع الشهادات، استبيان التقييم</td></tr>
+          <tr><td>٦٠ د</td><td>تركيب البطانة</td><td>إضافة بطانة داخلية للشنطة وتثبيتها</td></tr>
+          <tr><td>٦٠ د</td><td>قص وخياطة المحفظة</td><td>قص القطع وخياطة الجيوب الداخلية للمحفظة</td></tr>
+          <tr><td>١٥ د</td><td>استراحة</td><td>—</td></tr>
+          <tr><td>٩٠ د</td><td class="highlight">تزيين المحفظة</td><td>تطريز أو رسم الغلاف الخارجي للمحفظة وتركيب الطقطق</td></tr>
+          <tr><td>٧٥ د</td><td>مراجعة وتقييم </td><td>استعراض التقدم وتقديم الملاحظات الفردية وإكمال ما تبقى</td></tr>
         </table>
       </div>
     </div>
-    <div class="acc-item">
-      <div class="acc-head" onclick="toggleAcc(this)">🎯 مخرجات اليوم <span class="arrow">▼</span></div>
+  </div>
+
+  <!-- اليوم الرابع -->
+  <div id="day4" class="tab-content">
+    <h2>📅 اليوم الرابع: التشطيب النهائي ومعرض الإبداع</h2>
+    <p style="margin-bottom:10px; color:var(--brown-light);">⏱️ المدة: ٥ ساعات</p>
+    <div class="acc-item open">
+      <div class="acc-head" onclick="toggleAcc(this)">جدول الفعاليات <span class="arrow">▼</span></div>
       <div class="acc-body">
-        <ul class="checklist">
-          <li>محفظة مكتملة ومزينة</li>
-          <li>شنطة نهائية جاهزة للعرض</li>
-          <li>شهادة تقدير</li>
-        </ul>
+        <table>
+          <tr><th>الوقت</th><th>الفعالية</th><th>التفاصيل</th></tr>
+          <tr><td>٦٠ د</td><td>التشطيب النهائي للشنطة</td><td>إخفاء الخيوط، الكي، وضع مثبت القماش (Varnish) لحماية الرسومات</td></tr>
+          <tr><td>٦٠ د</td><td>التشطيب النهائي للمحفظة</td><td>لمسات أخيرة وتنظيف القطع</td></tr>
+          <tr><td>١٥ د</td><td>استراحة</td><td>—</td></tr>
+          <tr><td>١٢٠ د</td><td>معرض الإبداع</td><td>تجهيز طاولات العرض، تصوير البنات مع أعمالهن، وتكريم المشاركات</td></tr>
+          <tr><td>٤٥ د</td><td>ختام</td><td>كلمة ختامية، تبادل الخبرات، وأفكار لمشاريع مستقبلية</td></tr>
+        </table>
       </div>
     </div>
   </div>
@@ -270,9 +276,9 @@
       <tr><td>خلفي</td><td>١</td><td>٢٧×٢٤</td></tr>
       <tr><td>قاعدة</td><td>١</td><td>٢٧×١٠</td></tr>
       <tr><td>جانبان</td><td>٢</td><td>١٠×٢٤</td></tr>
-      <tr><td>حمالات</td><td>٢</td><td>٦٠×٦</td></tr>
+      <tr><td>حبال</td><td>٢</td><td>٦٠×٦</td></tr>
     </table>
-    <div class="note"><strong>خطوات الخياطة:</strong> الجوانب مع الأمام والخلف ← القاعدة ← القلب ← الحمالات ← البطانة ← التزيين.</div>
+    <div class="note"><strong>خطوات الخياطة:</strong> الجوانب مع الأمام والخلف ← القاعدة ← الحبال ← البطانة ← التزيين.</div>
 
     <h2>📎 باترون المحفظة (١٠×٢٠ سم مغلقة)</h2>
     <table>
@@ -281,70 +287,57 @@
       <tr><td>جيب بطاقات ١</td><td>١</td><td>٢٢×٨</td></tr>
       <tr><td>جيب بطاقات ٢</td><td>١</td><td>٢٢×٨</td></tr>
       <tr><td>بطانة</td><td>١</td><td>٢٢×٢٢</td></tr>
-      <tr><td>سحاب/زر</td><td>١</td><td>٢٠ سم</td></tr>
+      <tr><td>طقطق</td><td>١</td><td>زر </td></tr>
     </table>
-    <div class="note"><strong>خطوات الخياطة:</strong> ثني الجيوب ← تثبيت الجيوب ← خطوط فصل البطاقات ← السحاب ← البطانة ← القلب ← التشطيب.</div>
+    <div class="note"><strong>خطوات الخياطة:</strong> ثني الجيوب ← تثبيت الجيوب ← خطوط فصل البطاقات ← البطانة ← التشطيب.</div>
   </div>
 
-  <!-- الأدوات -->
+  <!-- الأدوات والمتطلبات -->
   <div id="tools" class="tab-content">
     <h2>🔧 أدوات الخياطة الأساسية (لكل مشاركة)</h2>
     <ul class="checklist">
-      <li>مقص قماش حاد</li><li>مقص ورق</li><li>مسطرة ٣٠ سم</li>
-      <li>طباشير خياطة</li><li>دبابيس تثبيت</li><li>إبر خياطة</li>
-      <li>خيوط متنوعة</li><li>شريط قياس</li><li>ورق باترون</li>
+      <li>مقص قماش حاد - مقص ورق - مقصات صغيرة</li>
+      <li>مسطرة ٣٠ سم - شريط قياس</li>
+      <li>طباشير خياطة - دبابيس تثبيت - إبر خياطة</li>
+      <li>خيوط متنوعة - طقطق ورق باترون</li>
     </ul>
-    <h2>🎨 مستلزمات الرسم والتطريز</h2>
+
+    <h2>🪡 متطلبات التطريز</h2>
     <ul class="checklist">
-      <li>ألوان أكريليك للقماش (Fabric Paint)</li>
-      <li>أقلام تحديد للقماش (Fabric Markers)</li>
-      <li>فرش رسم بأحجام مختلفة</li>
-      <li>إطارات تطريز (طارات خشبية)</li>
-      <li>خيوط تطريز (مولينيه) ملونة</li>
-      <li>إبر تطريز (فتحة واسعة)</li>
-      <li>ورق زبدة أو كرتون (للعزل أثناء الرسم)</li>
+      <li>طقم خيوط تطريز</li>
+      <li>إبر تطريز - خيوط وإبر خرز نحيفة</li>
+      <li>أطواق تطريز</li>
+      <li>قلم يختفي بالماء/الحرارة</li>
+      <li>ورق ترانسفر</li>
+      <li>مثبّت تطريز</li>
+      <li>خرز (صغير وكبير)</li>
+      <li>كربون</li>
+      <li>ورق شفاف</li>
+      <li>فتّاقة</li>
     </ul>
-    <h2>🧵 مستلزمات المشروع</h2>
+
+    <h2>🎨 متطلبات الرسم على القماش</h2>
+    <ul class="checklist">
+      <li>ألوان خاصة بالقماش</li>
+      <li>فرش بأحجام مختلفة</li>
+      <li>باليت للألوان</li>
+      <li>أقلام تحديد قابلة للمسح</li>
+    </ul>
+
+    <h2>🧵 مستلزمات المشروع والماكينة</h2>
     <ul class="checklist">
       <li>ملابس قديمة (٢–٣ قطع لكل مشاركة)</li>
       <li>سحابات (٢٠ سم) أو أزرار ضغط</li>
       <li>فيلتري أو قماش لباد</li>
-      <li>شرائط، دانتيل، خرز للتزيين</li>
+      <li>شرائط، دانتيل، فصوص للتزيين</li>
+      <li>ماكينات خياطة ومكواة (مجهزة في القاعة)</li>
     </ul>
-  </div>
-
-  <!-- التقييم والشهادة -->
-  <div id="evaluation" class="tab-content">
-    <h2>📝 استبيان التقييم</h2>
-    <div class="acc-item open">
-      <div class="acc-head" onclick="toggleAcc(this)">عبارات التقييم (١–٥) <span class="arrow">▼</span></div>
-      <div class="acc-body">
-        <table>
-          <tr><th>العبارة</th><th>١</th><th>٢</th><th>٣</th><th>٤</th><th>٥</th></tr>
-          <tr><td>وضوح الأهداف</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr>
-          <tr><td>مناسبة المحتوى</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr>
-          <tr><td>كفاية الوقت</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr>
-          <tr><td>تعاون المدربة</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr>
-          <tr><td>الاستفادة من ورش الرسم والتطريز</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr>
-          <tr><td>إتقان مهارة جديدة</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr>
-          <tr><td>التوصية بالدورة</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr>
-        </table>
-      </div>
-    </div>
-    <h2>✅ نموذج الشهادة</h2>
-    <div class="note" style="text-align:center; font-size:1.05rem;">
-      <strong>شهادة تقدير</strong><br><br>
-      تُمنح إلى: ______________________<br><br>
-      لإتمامها دورة <strong>"من قماش قديم إلى إبداع جديد"</strong><br>
-      بواقع ١٦ ساعة تدريبية (خياطة، رسم، وتطريز)<br><br>
-      التاريخ: ____ / المدربة: ________ / التوقيع: ________
-    </div>
   </div>
 
 </div>
 
 <footer>
-  💡 للتحويل إلى PDF: اطبعي الصفحة (Ctrl+P) ← اختاري "حفظ كـ PDF"
+  💡 
 </footer>
 
 <script>
